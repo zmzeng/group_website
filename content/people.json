@@ -1,0 +1,30 @@
+{
+    "page_type": "people",
+    "grades":[
+        {
+            "year": 2015,
+            "people":[
+                {
+                    "name": "胡学福",
+                    "degree": "博士",
+                    "image": "HXF_dRez8BD.jpg"
+                }
+            ]
+        },
+        {
+            "year": 2016,
+            "people": [
+                {
+                    "name": "陈培灿",
+                    "degree": "博士",
+                    "image": "CPC.jpg"
+                },
+                {
+                    "name": "郭莹",
+                    "degree": "博士",
+                    "image": "GY.jpg"
+                }
+            ]
+        }
+    ]
+}
