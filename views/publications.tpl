@@ -1,11 +1,10 @@
-% include('header.tpl', title='Index')
+% include('header.tpl')
     <!-- title -->
     <div class="ui vertical center aligned container segment">
         <h1 class="ui header">Publications</h1>
       </div>
   
       <!-- article -->
-  
       <div class="ui container vertical segment ">
         <div class="ui two doubling cards">
         % for i, article in enumerate(articles):

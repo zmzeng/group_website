@@ -8,11 +8,14 @@ def get_info(page_type):
         info = json.load(f)
     return info
 
-@bottle.route('<filename:path>')
-def static(filename):
-    return bottle.static_file(filename, root='./')
+@bottle.route('/media/<filename:path>')
+def get_media_file(filename):
+    return bottle.static_file(filename, root='./media')
 
-@bottle.route('')
+@bottle.route('/static/<filename:path>')
+def get_static_file(filename):
+    return bottle.static_file(filename, root='./static')
+
 @bottle.route('/')
 @bottle.route('/index')
 def index_page():

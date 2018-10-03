@@ -1,4 +1,4 @@
-% include('header.tpl', title='Index')
+% include('header.tpl')
     <!-- image -->
     <div class="ui container vertical segment">
         <div class="flexslider">
@@ -11,7 +11,6 @@
           </ul>
         </div>
       </div>
-
 
       <!-- image play -->
       <link rel="stylesheet" href="static/css/flexslider.css" media="screen" title="no title" charset="utf-8">
@@ -31,7 +30,9 @@
         <div class="ui stackable grid">
           <div class="ten wide column">
             <div class="ui basic segment">
-              <p id="introduction">{{description}}</p>
+              % for d in description:
+              <p id="introduction">{{d}}</p>
+              % end
             </div>
           </div>
           <div class="six wide column">

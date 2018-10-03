@@ -2,9 +2,26 @@
     "page_type": "leader",
     "profs": [
         {
-            "name": "汪骋 教授，博士 Prof. Dr. Cheng Wang",
-            "info": "厦门大学化学化工学院 特聘教授 Professor in College of Chemistry and Chemical Engineering, Xiamen University Email: wangchengxmu@xmu.edu.cn Tel: +86-592-2183705",
-            "description": "汪骋教授于2009年在北京大学结束本科学业获得学士学位；2009年至2013年，深造于北拉罗莱纳大学教堂山分校并获博士学位。2015年初，汪骋教授在芝加哥大学完成两年博士后研究工作后，作为特聘教授就职于厦门大学化学化工学院，主持独立课题组研究工作。汪骋教授具有深厚的无机合成化学及超快光谱研究背景，目前正在着眼于功能材料及物理化学前沿交叉领域的独立研究，带领厦门大学研究团队开展了包括C1小分子相关催化转化在内的分子基界面催化研究. Dr. Cheng (Wave) Wang is a professor in Chemistry Department of Xiamen University. Dr. Cheng Wang obtained his BS degree from Peking University in 2009 and a PhD degree in chemistry from University of North Carolina at Chapel Hill in 2013. Before joining the faculty of Xiamen University in 2015, Dr. Cheng Wang did a postdoc research in University of Chicago. Dr. Cheng Wang expertises in both synthetic inorganic chemistry and ultrafast spectroscopy. His efforts in his independent research will be focused on the cross-disciplinary field between functional materials and physical chemistry.",
+            "title": [
+                "汪骋 教授，博士", 
+                "Prof. Dr. Cheng Wang"
+            ],
+            "info": [
+                "厦门大学化学化工学院 特聘教授",
+                "Professor in College of Chemistry and Chemical Engineering, Xiamen University",
+                "Email: wangchengxmu@xmu.edu.cn",
+                "Tel: +86-592-2183705"
+            ],
+            "description": [
+                "汪骋教授于2009年在北京大学结束本科学业获得学士学位；",
+                "2009年至2013年，深造于北拉罗莱纳大学教堂山分校并获博士学位。",
+                "2015年初，汪骋教授在芝加哥大学完成两年博士后研究工作后，作为特聘教授就职于厦门大学化学化工学院，主持独立课题组研究工作。",
+                "汪骋教授具有深厚的无机合成化学及超快光谱研究背景，目前正在着眼于功能材料及物理化学前沿交叉领域的独立研究，带领厦门大学研究团队开展了包括C1小分子相关催化转化在内的分子基界面催化研究。",
+                "Dr. Cheng (Wave) Wang is a professor in Chemistry Department of Xiamen University.", 
+                "Dr. Cheng Wang obtained his BS degree from Peking University in 2009 and a PhD degree in chemistry from University of North Carolina at Chapel Hill in 2013.",
+                "Before joining the faculty of Xiamen University in 2015, Dr. Cheng Wang did a postdoc research in University of Chicago.", 
+                "Dr. Cheng Wang expertises in both synthetic inorganic chemistry and ultrafast spectroscopy. His efforts in his independent research will be focused on the cross-disciplinary field between functional materials and physical chemistry."
+            ],
             "photo": "wangcheng.jpg"
         }
     ]

@@ -9,11 +9,6 @@
     <link rel="shortcut icon" href="static/favicon.ico">
     <title>The Wang group</title>
     <link rel="stylesheet" href="static/css/semantic.css" media="screen" title="no title" charset="utf-8">
-    <style type="text/css">
-    p {white-space: pre-line;}
-    /* {% block style %}
-    {% endblock %} */
-    </style>
   </head>
   <body>
 

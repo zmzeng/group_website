@@ -1,4 +1,4 @@
-% include('header.tpl', title='Index')
+% include('header.tpl')
     <!-- title -->
     <div class="ui vertical center aligned container segment">
         <h1 class="ui header">Team Members</h1>
@@ -10,7 +10,7 @@
           <div class="doubling four column row">
               <div class="column">
                   <div class="ui basic segment">
-                      <h3 class="ui header">研究助理
+                      <h3 class="ui header">研究助理<br>
                       Research assistant</h3>
                       <div class="ui card"  id="黄瑞芸">
                         <div class="image">
@@ -27,7 +27,7 @@
               </div>
               <div class="column">
                   <div class="ui basic segment">
-                      <h3 class="ui header">博士后
+                      <h3 class="ui header">博士后<br>
                   Post Doctors</h3>
                       <div class="ui card"  id="张灿坤">
                         <div class="image">
