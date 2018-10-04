@@ -5,15 +5,18 @@
       </div>
   
       <!-- article -->
+      <style type="text/css"unselectable="on">
+        a{ color: black; } /* CSS link color */
+      </style>
       <div class="ui container vertical segment ">
         <div class="ui two doubling cards">
-        % for i, article in enumerate(articles):
+        % for i, article in enumerate(sorted(articles, key=lambda x:x["publish_date"], reverse=True)):
           <div class="ui card" id="article">
             <div class="ui basic segment">
-              <a class="article" href="{{ article['link'] }}" target="_blank"><h4><I>{{ len(articles)-i }}.&nbsp;</I>{{ article['title'] }}</h4></a>
-              <a class="article" href="{{ article['link'] }}" target="_blank"><p>{{ article['info'] }}</p></a>
-              <a class="article" href="{{ article['link'] }}" target="_blank"><p>{{ article['doi'] }}</p></a>
-              <a href="{{ article['link'] }}"  target="_blank"><img class="ui centered image" src="/media/article_image/{{ article['toc'] }}" height="200px"></a>
+              <a class="article title" href="{{ article['link'] }}" target="_blank"><h4><I>{{ len(articles)-i }}.&nbsp;&nbsp;</I>{{ article['title'] }}</h4></a>
+              <a class="article info" href="{{ article['link'] }}" target="_blank"><p>{{ article['info'] }}</p></a>
+              <a class="article doi" href="{{ article['link'] }}" target="_blank"><p>{{ article['doi'] }}</p></a>
+              <a class="article toc" href="{{ article['link'] }}"  target="_blank"><img class="ui centered image" src="/media/article_image/{{ article['toc'] }}" height="200px"></a>
             </div>
           </div>     
         % end

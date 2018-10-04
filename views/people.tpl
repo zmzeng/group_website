@@ -48,9 +48,9 @@
         <div class="ui segment">
           <h3 class="ui header">研究生 Graduate Students</h3>
           % for grade in grades:
-          <h4 class="ui header">{{grade['year']}}级</h4>
+          <h4 class="ui header">{{grade['year']}}</h4>
           <div class="ui five doubling cards">
-            % for person in grade['people']:
+            % for person in sorted(grade['people'], key=lambda x:x['name'], reverse=True):
             <div class="card" id="{{ person['name'] }}">
               <div class="image">
                 <img src="/media/person_image/{{person['image']}}">

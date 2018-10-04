@@ -29,6 +29,5 @@ $ sh collect_static.sh
 ### TODO:
 
 1. Automaticly upload to ftp after collecting static html
-2. Resolve line break in the content of website
-3. Contents need to be complemented.
+2. Contents need to be complemented
 

@@ -31,7 +31,7 @@
           <div class="ten wide column">
             <div class="ui basic segment">
               % for d in description:
-              <p id="introduction">{{d}}</p>
+              <p style="font-size: 110%;" id="introduction">{{d}}</p>
               % end
             </div>
           </div>
