@@ -13,25 +13,6 @@
                 "3. Electrocatalysis Subgroup:Develop molecularly well-defined model catalysts based on metal-organic frameworks and metal-organic layers to study catalytic mechanisms in electrocatalysis and create new immobilized molecular electrocatalyst with high selectivity and efficiency.",
                 "4. Photocatalysis Subgroup:Develop molecularly well-defined model catalysts based on metal-organic frameworks and metal-organic layers to study fundamental scientific problems in photocatalysis. The trademark of this subgroup is the study of energy transfer mechanism in photocatalytic systems. A long-range jumping model was developed to describe energy transfer in a chromophore network. The subgroup also has a femto-second laser lab to study ultrafast processes in excited states with correlation spectroscopy."
             ]
-        },
-         {
-            "title": "我们要解决什么科学问题？What Scientific Questions Are We Answering?",
-            "description": [
-                "1.传统金属/氧化物担载催化剂微观结构复杂，难以明确构效关系。我们发展精准的合成化学以明确催化结构，并用高时空分辨和原位的表征手段协助阐明机理。",
-                "2.传统异相催化剂微观结构复杂，导致同一催化剂上活性位种类繁多，选择性差，最终产生副产物和化工污染。我们利用微观结构明确的催化剂，控制选择性，实现更绿色的化学过程。",
-                "3.化工过程苛刻的反应条件带来一系列能源和环境问题。我们利用分子设计，学习生物体系，开展更温和条件的催化反应。",
-                "1. The active sites in traditional metal/metal oxide supported catalysts are microscopically heterogeneous. It is thus very challenging to delineate the structure-property relationship. We aim at developing synthetic strategy to create molecularly well defined interfaces and constructing advanced characterization techniques with high spatial/temporal resolution and/or operando capability to discover catalytic mechanism.",
-                "2. The heterogeneous active sites in traditional solid catalysts lead to poor selectivity in catalysis, which finally yields wasteful by-product and many cases of pollution in chemical industry. We aim at creating better defined active sites to enhance selectivity that paves the way for greener chemical industry.",
-                "3. The often harsh reaction condition in chemical industry causes various energy and environmental challenges. By resorting to molecular design and learning from biological systems, we aim at developing new catalytic processes under milder conditions."
-            ]
-        },
-        {
-            "title": "我们要创造什么？What Are We Creating?",
-            "description": [
-                "以界面小分子催化剂为核心，研究气固相催化、气液相催化、油水界面催化、电催化、光催化，着重阐明催化过程的基本科学问题。",
-                "We create molecularly defined interfaces that enables study of solid-gas phase catalysis, liquid-gas phase catalysis, oil-water phase catalysis, electrocatalysis and photocatalysis from a new perspective, with a focus on uncovering mechanism of interfacial catalysis.",
-            ]
-        },
-        
+        }
     ]
 }
