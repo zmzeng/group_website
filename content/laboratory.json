@@ -4,6 +4,26 @@
         {
             "name": "超快飞秒激光系统",
             "image": "LASER.jpg"
-        }
+        }, 
+        {
+            "name": "原子吸收光谱分析仪",
+            "image": "AAS_vXNEzbK.jpg"
+        },
+        {
+            "name": "高效液相色谱仪",
+            "image": "HPLC.jpg"
+        }, 
+         {
+            "name": "气相色谱仪",
+            "image": "GC.jpg"
+        },  
+        {
+            "name": " LB膜分析仪",
+            "image": "LB.jpg"
+        }, 
+         {
+            "name": "手套箱",
+            "image": "glove_box.jpg"
+        }, 
     ]
 }
