@@ -1,6 +1,30 @@
 {
     "page_type": "pulications",
     "articles": [
+         {
+            "title": "A Dynamically Stabilized Single‐Nickel Electrocatalyst for Selective Reduction of Oxygen to Hydrogen Peroxide", 
+            "info": "Tingting Wang,  Zhongming Zeng , Lingyun Cao,  Zhe Li , Xuefu Hu , Bing An , Cheng Wang ,Wenbin Lin* Chem. Eur. J. 10.1002/chem.201804312", 
+            "doi": "DOI: 10.1002/chem.201804312", 
+            "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/chem.201804312"", 
+            "toc": "chem.201804312.png",
+            "publish_date": 20181002
+        }, 
+        {
+            "title": "Synthetic Strategies for Constructing Two-Dimensional Metal-Organic Layers (MOLs): A Tutorial Review", 
+            "info": "Lingyun Cao,Tingting Wang,and Cheng Wang* Chin. J. Chem. 2018, 36, 754－764", 
+            "doi": "DOI: 10.1002/cjoc.201800144", 
+            "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/cjoc.201800144"", 
+            "toc": "cjoc.201800144.png",
+            "publish_date": 20180523
+        }, 
+         {
+            "title": "Two-Dimensional Metal–Organic Layers on Carbon Nanotubes to Overcome Conductivity Constraint in Electrocatalysis", 
+            "info": "Ling Yang,† Lingyun Cao,† Ruiyun Huang,† Zhong-Wei Hou,† Xiang-Yang Qian,† Bing An,†Hai-Chao Xu,† Wenbin Lin,†,‡ and Cheng Wang*,ACS Appl. Mater. Interfaces XXXX, XXX, XXX−XXX", 
+            "doi": "DOI: 10.1021/acsami.8b13356", 
+            "link": "https://pubs.acs.org/doi/abs/10.1021/acsami.8b13356"", 
+            "toc": "acsami.8b13356.png",
+            "publish_date": 20180927
+        }, 
         {
             "title": "Two-Dimensional Metal-Organic Layers as a Bright and Processable Phosphor for Fast White-Light Communication", 
             "info": "Xuefu Hu, Zi Wang, Bangjiang Lin*, Cankun Zhang, Lingyun Cao, Tingting Wang, Jingzheng Zhang, Cheng Wang*, Wenbin Lin* Chem.-Eur. J. 2017, 23, 8390-8394", 
