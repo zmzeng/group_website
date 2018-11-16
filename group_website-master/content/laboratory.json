@@ -1,0 +1,9 @@
+{
+    "page_type": "laboratory",
+    "devices": [
+        {
+            "name": "超快飞秒激光系统",
+            "image": "LASER.jpg"
+        }
+    ]
+}

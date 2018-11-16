@@ -1,0 +1,146 @@
+{
+    "page_type": "people",
+    "grades":[
+        {
+            "year": 2015,
+            "people":[
+                {
+                    "name": "胡学福",
+                    "degree": "博士",
+                    "image": "HXF_dRez8BD.jpg"
+                },
+                {
+                    "name":"杨玲",
+                    "degree": "博士",
+                    "image" :"YL_pkXGFrH.jpg"
+                }
+            ]
+        },
+        {
+            "year": 2016,
+            "people": [
+                {
+                    "name": "陈培灿",
+                    "degree": "博士",
+                    "image": "CPC.jpg"
+                },
+                {
+                    "name": "郭莹",
+                    "degree": "博士",
+                    "image": "GY.jpg"
+                },
+                {
+                     "name": "李哲",
+                    "degree": "博士",
+                    "image": "LZ.jpg"
+                },
+                {
+                     "name": "曾令真",
+                    "degree": "博士",
+                    "image": "ZLZ_B24UoAp.jpg"
+                },
+                {
+                     "name": "曾中铭",
+                    "degree": "硕士",
+                    "image": "ZZM.jpg"
+                }
+            ]
+        },
+        {
+            "year":2017,
+             "people": [
+                {
+                    "name": "贺雪峰",
+                    "degree": "博士",
+                    "image": "HXF_gabhIhn.jpg"
+                },
+                {
+                    "name": "史文颉",
+                    "degree": "博士",
+                    "image": "SWJ.jpg"
+                },
+                {
+                    "name": "张竞争",
+                    "degree": "博士",
+                    "image": "ZJZ.jpg"
+                },
+                {
+                    "name": "胡慧慧",
+                    "degree": "硕士",
+                    "image": "HHH.jpg"
+                },
+                {
+                    "name": "贺莘茹",
+                    "degree": "硕士",
+                    "image": "HXR.jpg"
+                },
+                {
+                    "name": "苏梁妹",
+                    "degree": "硕士",
+                    "image": "SLM.jpg"
+                }
+            ]
+        },
+        {
+            "year":2018,
+            "people":[
+                {
+                    "name":"黄蓥",
+                    "degree":"硕士",
+                    "image":"HY.jpg"
+                },
+                {
+                    "name":"叶志",
+                    "degree":"硕士",
+                    "image":"YZ.jpg"
+                },
+                {
+                    "name": "王之野",
+                   "degree": "博士",
+                   "image": "WZY.jpg"
+               },
+               {
+                   "name":"陈佳伟",
+                   "degree":"硕士",
+                   "image":"CJW.jpg"
+               },
+               {
+                   "name":"王晶",
+                   "degree":"博士",
+                   "image":"WJ.jpg"
+               }
+
+            ]
+        },
+        {
+            "year":"已毕业",
+             "people": [
+                {
+                    "name": "安冰",
+                    "degree": "博士",
+                    "image": "AB.jpg"
+                },
+                {
+                    "name": "曹凌云",
+                    "degree": "博士",
+                    "image": "CLY.jpg"
+                },
+                {
+                    "name": "代睿涵",
+                    "degree":"硕士",
+                    "image":"DRH.jpg"
+                },
+                {
+                    "name": "王婷婷",
+                    "degree": "硕士",
+                    "image": "WTT.jpg"
+                },
+                {
+                    "name":"王子",
+                    "degree":"硕士",
+                    "image":"WZ.jpg"
+                }
+            ]
+        }
+    ]
+}
