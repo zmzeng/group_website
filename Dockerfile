@@ -1,5 +1,5 @@
 From python:alpine
-RUN pip install gunicorn bottle
+RUN pip install --no-cache-dir gunicorn bottle
 COPY . /www
 WORKDIR /www
 EXPOSE 80

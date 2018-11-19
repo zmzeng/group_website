@@ -50,7 +50,7 @@
           % for grade in grades:
           <h4 class="ui header">{{grade['year']}}</h4>
           <div class="ui five doubling cards">
-            % for person in sorted(grade['people'], key=lambda x:x['name'], reverse=True):
+            % for person in sorted(grade['people'], key=lambda x:x['image'], reverse=False):
             <div class="card" id="{{ person['name'] }}">
               <div class="image">
                 <img src="/media/person_image/{{person['image']}}">
