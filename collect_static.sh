@@ -23,19 +23,19 @@ echo 'download complete!'
 echo '-----------------'
 
 # menu
-sed -i "" 's#href="/index"#href="index.html"#' *.html
-sed -i "" 's#href="/leader"#href="leader.html"#' *.html
-sed -i "" 's#href="/publications"#href="publications.html"#' *.html
-sed -i "" 's#href="/research"#href="research.html"#' *.html
-sed -i "" 's#href="/people"#href="people.html"#' *.html
-sed -i "" 's#href="/laboratory"#href="laboratory.html"#' *.html
+sed -i  's#href="/index"#href="index.html"#' *.html
+sed -i  's#href="/leader"#href="leader.html"#' *.html
+sed -i  's#href="/publications"#href="publications.html"#' *.html
+sed -i  's#href="/research"#href="research.html"#' *.html
+sed -i  's#href="/people"#href="people.html"#' *.html
+sed -i  's#href="/laboratory"#href="laboratory.html"#' *.html
 
 # media
-sed -i "" 's#src="/media#src="media#' *.html
+sed -i  's#src="/media#src="media#' *.html
 
 # static
-sed -i "" 's#href="/static#href="static#' *.html
-sed -i "" 's#src="/static#src="static#' *.html
+sed -i  's#href="/static#href="static#' *.html
+sed -i  's#src="/static#src="static#' *.html
 
 echo '-----------------'
 echo 'replace complete!'
