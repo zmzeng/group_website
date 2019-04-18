@@ -23,3 +23,4 @@ def collect_html():
 
 if __name__ == "__main__":
     collect_html()
+    print("collect html success!")
