@@ -5,15 +5,18 @@ import json
 
 app = bottle.default_app()
 
+# get content from json files
 def get_info(page_type):
     with open('./content/' + page_type+'.json', 'r') as f:
         info = json.load(f)
     return info
 
+# get media file
 @app.route('/media/<filename:path>')
 def get_media_file(filename):
     return bottle.static_file(filename, root='./media')
 
+# get static file
 @app.route('/static/<filename:path>')
 def get_static_file(filename):
     return bottle.static_file(filename, root='./static')

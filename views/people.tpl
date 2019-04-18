@@ -46,7 +46,7 @@
         </div>
   
         <div class="ui segment">
-          <h3 class="ui header">研究生 Graduate Students</h3>
+          <h3 class="ui header">研究生<br>Graduate Students</h3>
           % for grade in grades:
           <h4 class="ui header">{{grade['year']}}</h4>
           <div class="ui five doubling cards">

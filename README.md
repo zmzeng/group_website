@@ -19,9 +19,9 @@ $ python3 main.py
 ```
 2. Modify json file in `content` floder. Each one is related to the page of same name. The website will be reload automaticly after change.
 
-3. run `collect_static.sh` to get static html file.
+3. run `collect_html.py` to get static html file.
 ```
-$ sh collect_static.sh
+$ python3 collect_html.py
 ```
 
 4. upload `*.html` and `media`, `static` folders to group ftp, so the website can be visit by link in XMU offical website.

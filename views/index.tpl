@@ -41,9 +41,9 @@
                 <h4>News</h4>
                 <div class="flexslider">
                   <ul class="slides">
-                  % for new, new_link in zip(news, news_link):
+                  % for n in news:
                     <li id="news">
-                      <a href="{{new_link}}" target="_blank"><p>{{new}}</p></a>
+                      <a href="{{n['link']}}" target="_blank"><p>{{n['content']}}</p></a>
                     </li>
                   % end
                   </ul>
