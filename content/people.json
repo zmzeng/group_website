@@ -1,5 +1,19 @@
 {
     "page_type": "people",
+    "research_assistant":[
+        {
+            "name": "黄瑞芸",
+            "degree": "工程师",
+            "image": "HRY.jpg"
+        }
+    ],
+    "post_doctors":[
+        {
+            "name": "张灿坤",
+            "year": "2016",
+            "image": "ZCK.jpg"
+        }
+    ],
     "grades":[
         {
             "year": 2015,

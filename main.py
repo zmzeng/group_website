@@ -7,7 +7,7 @@ app = bottle.default_app()
 
 # get content from json files
 def get_info(page_type):
-    with open('./content/' + page_type+'.json', 'r') as f:
+    with open('./content/' + page_type+'.json', 'r', encoding='utf-8') as f:
         info = json.load(f)
     return info
 

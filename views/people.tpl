@@ -8,40 +8,44 @@
       <div class="ui vertical segment container">
         <div class="ui grid segment">
           <div class="doubling four column row">
+            %for ra in research_assistant:
               <div class="column">
                   <div class="ui basic segment">
                       <h3 class="ui header">研究助理<br>
                       Research assistant</h3>
-                      <div class="ui card"  id="黄瑞芸">
+                      <div class="ui card"  id="{{ra['name']}}">
                         <div class="image">
-                          <img src="/media/person_image//HRY.jpg">
+                          <img src="/media/person_image/{{ra['image']}}">
                         </div>
                         <div class="content">
-                          <div class="header">黄瑞芸</div>
+                          <div class="header">{{ra['name']}}</div>
                           <div class="meta">
-                            <span class="date">工程师</span>
+                            <span class="date">{{ra['degree']}}</span>
                           </div>
                         </div>
                       </div>
                   </div>
               </div>
+            % end
+            % for pd in post_doctors:
               <div class="column">
                   <div class="ui basic segment">
                       <h3 class="ui header">博士后<br>
                   Post Doctors</h3>
-                      <div class="ui card"  id="张灿坤">
+                      <div class="ui card"  id="{{pd['name']}}">
                         <div class="image">
-                          <img src="/media/person_image/ZCK.jpg">
+                          <img src="/media/person_image/{{pd['image']}}">
                         </div>
                         <div class="content">
-                          <div class="header">张灿坤</div>
+                          <div class="header">{{pd['name']}}</div>
                           <div class="meta">
-                            <span class="date">2016</span>
+                            <span class="date">{{pd['year']}}</span>
                           </div>
                         </div>
                       </div>
                   </div>
               </div>
+            % end
           </div>
         </div>
   

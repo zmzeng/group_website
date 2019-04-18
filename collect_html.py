@@ -18,7 +18,7 @@ def collect_html():
         content = content.replace("href=\"/static", "href=\"static")
         content = content.replace("src=\"/static", "src=\"static")
 
-        with open(url+'.html', 'w') as f:
+        with open(url+'.html', 'w', encoding='utf-8') as f:
             f.write(content)
 
 if __name__ == "__main__":
