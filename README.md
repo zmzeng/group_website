@@ -2,17 +2,36 @@
 
 The Wang Group website based on bottlepy.
 
-### Requirement:
+The whole website is based on ***[bottlepy](https://bottlepy.org/docs/dev/index.html)***, contents of website were store in `group_website/content` folder and rendered by ***[SimpleTemplate Engine](https://bottlepy.org/docs/dev/stpl.html)***.
+
+*Test on **Windows 10**, **Ubuntu 16.04** and **macOS 10.13.6**.*
+
+### 依赖 Requirement:
 
 1. python 3.6+
 2. bottle 0.12+
 3. requests 2.21+
 
-### Use Method:
+### 使用方法 Use Method:
 
-Test on **Windows 10**, **Ubuntu 16.04** and **macOS 10.13.6**.
+0. 安装依赖（请先自行安装Python3.6）
+```
+$ pip3 install -r requirement.txt
+```
+1. 在`group_website`文件夹内启动一个终端窗口，运行`main.py`来启动网页服务器。启动后可以通过访问查看网页。保持终端窗口打开以进行下一步操作。
 
-The whole website is based on ***[bottlepy](https://bottlepy.org/docs/dev/index.html)***, contents of website were store in `group_website/content` folder and rendered by ***[SimpleTemplate Engine](https://bottlepy.org/docs/dev/stpl.html)***.
+2. 修改文件夹内的json文件以修改网页内容。json文件名与相应网页对应。修改保存后，刷新网页即可看到变化。在执行下一步前应检查修改的内容是否生效且无报错。
+
+3. 在`group_website`文件夹内启动另一个终端窗口，运行`collect_html.py`来获得静态html文件
+```
+$ python3 collect_html.py
+```
+
+4. 打开`index.html`，并检查网页是否正常呈现。
+
+5. 将html文件、`media`、`static`文件夹上传到ftp服务器上
+
+---
 
 0. Install requirement (assume Python3.6 is installed) 
 ```
@@ -33,7 +52,10 @@ $ python3 collect_html.py
 
 5. Upload `*.html` and `media`, `static` folders to group ftp, so the website can be visit by link in XMU offical website.
 
-### Image Path
+### 图片路径 Image Path
+
+图片文件都保存在`group_website/media`文件夹下。
+
 All media image store in `media` folder.
 
 `group_website/media/toc_image`  - for index page
@@ -45,13 +67,23 @@ All media image store in `media` folder.
 `group_website/media/device_iamge`  - for laboratory page
 
 
-### How to Get Terminal in Windows10?
+### 如何在Windows10下打开终端？ How to Get Terminal in Windows10?
+
+1. 进入`group_website`文件夹
+
+2. 按住**SHIFT**键，并在文件夹内空白处单击右键
+
+3. 选择"在此处打开PowerShell窗口"
+
+---
 
 1. enter `group_website` folder
 
 2. press **SHIFT** key and right-click on blank field
 
 3. click "open PowerShell here" or "在此处打开PowerShell窗口"
+
+
 ![](media/powershell.jpg)
 
 ### TODO:
